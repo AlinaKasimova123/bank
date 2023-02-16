@@ -2,9 +2,9 @@
 require_once('../config//DBConnection.php');
 try {
 
-    // if($_POST['userName'] == "" && $_POST['surname'] == "" && $_POST['age'] == "") {
-    //     exit;
-    // }
+    if($_POST['fio'] == "" && $_POST['person_inn']) {
+        exit;
+    }
         $fio = htmlspecialchars($_POST['fio']);
         $person_inn = htmlspecialchars($_POST['person_inn']);
         if($_POST['birth_date']){
