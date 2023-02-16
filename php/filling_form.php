@@ -38,13 +38,7 @@
         </div>
     </div>
         </div>
-        <script>
-          date = new Date();
-           if ( (this.day < date.getDate() && this.month <= date.getMonth() ) || this.month < date.getMonth()) ) {
-        console.log("")
-    }
-        </script>
-
+            
         <!-- Паспортные данные -->
         <div class="row">
         <h4 class="passport_data">Паспортные данные</h4>
